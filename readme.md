@@ -17,15 +17,15 @@ scheduling problem and highlights the advantages of designing training curricula
 a deconstruction of the train scheduling problem.
 By utilizing this Custom Curriculum, we were able to improve the mean done rate(number of
 trains reaching their destination) of a DDDQN algorithm by about 160% compared to using No
-Curriculum.
+Curriculum.<br/>
 We further explore adaptations to the DDDQN addressing the Non-Stationarity, which is introduced with the changing environments of the curricula to leverage the positive effects of the
-custom curricula.
+custom curricula.<br/>
 The adaptation that improved mean done rate the most, when evaluated in an environment not
 being part of the training data, was the utilization of rational pad´e activation units(a type of
 learnable activation function), which increased the mean done rate by roughly 232%, but also
 the use of elastic weight consolidation yielded an improvement of 195%, both showing us that
 we are able to leverage the effects of a curriculum by using adaptations to Non-Stationarity,
-commonly used in continual/lifelong reinforcement learning setting.
+commonly used in continual/lifelong reinforcement learning setting.<br/>
 The insights gained contribute to making RL more applicable to logistics and supply chain
 management tasks, enhancing efficiency and adaptability across them, but they need further
 investigation due to the results displaying high variance.
